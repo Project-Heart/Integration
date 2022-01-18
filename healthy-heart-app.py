@@ -40,10 +40,10 @@ st.markdown(html_temp, unsafe_allow_html = True)
 st.subheader('by Team-5 ')
       
 # following lines create boxes in which user can enter data required to make prediction
-age=st.selectbox ("Enter Age",range(1,96,40))
-ejection = st.radio("Enter Ejection Fraction: ", range(1,81,14))
+age=st.selectbox ("Enter Age",range(1,96,1))
+ejection = st.selectbox("Enter Ejection Fraction: ", range(1,81,1))
 serum = st.number_input('Enter serum_creatinine')
-time=st.selectbox('Enter follow up time ',range(1,286,4))
+time=st.selectbox('Enter follow up time ',range(1,286,1))
 
 
 
