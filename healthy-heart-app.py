@@ -18,10 +18,10 @@ def preprocess(age,ejection,serum,time ):
     e=float(ejection)
     s=float(serum)
     t=float(time)
-    a1=(a-mean[0])/std[0]
-    e1=(e-mean[4])/std[4]
-    s1=(s-mean[7])/std[7]
-    t1=(t-mean[11])/std[11]
+    a1=(a-60.83389297658862)/11.894809074044478
+    e1=(e-38.08361204013378)/11.834840741039178
+    s1=(s-1.393879598662207)/1.0345100640898532
+    t1=(t-130.2608695652174)/77.61420795029339
     user_input=[a1,e1,s1,t1]
     user_input=np.array(user_input)
     user_input=[user_input]
